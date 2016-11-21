@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".Main">
+
+    <include layout="@layout/content_main" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add your \n own images"
+            android:textColor="#324A5E"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:layout_below="@+id/fab"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="0dp"
+            />
+
+        <ImageView
+            android:id="@+id/fab"
+            android:layout_centerHorizontal="true"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/plus"
+            />
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

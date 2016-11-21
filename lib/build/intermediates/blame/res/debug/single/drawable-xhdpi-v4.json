@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Sebastian\\Documents\\AndroidStudio\\MemoryGame\\lib\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\crop__ic_done.png",
+        "source": "D:\\Sebastian\\Documents\\AndroidStudio\\MemoryGame\\lib\\src\\main\\res\\drawable-xhdpi\\crop__ic_done.png"
+    },
+    {
+        "merged": "D:\\Sebastian\\Documents\\AndroidStudio\\MemoryGame\\lib\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\crop__ic_cancel.png",
+        "source": "D:\\Sebastian\\Documents\\AndroidStudio\\MemoryGame\\lib\\src\\main\\res\\drawable-xhdpi\\crop__ic_cancel.png"
+    },
+    {
+        "merged": "D:\\Sebastian\\Documents\\AndroidStudio\\MemoryGame\\lib\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\crop__divider.9.png",
+        "source": "D:\\Sebastian\\Documents\\AndroidStudio\\MemoryGame\\lib\\src\\main\\res\\drawable-xhdpi\\crop__divider.9.png"
+    },
+    {
+        "merged": "D:\\Sebastian\\Documents\\AndroidStudio\\MemoryGame\\lib\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\crop__tile.png",
+        "source": "D:\\Sebastian\\Documents\\AndroidStudio\\MemoryGame\\lib\\src\\main\\res\\drawable-xhdpi\\crop__tile.png"
+    }
+]

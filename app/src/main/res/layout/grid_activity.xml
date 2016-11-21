@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#D4CDC7"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/sound"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="16dp"
+        android:scaleType="fitCenter"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:src="@mipmap/sound_icon"
+        />
+
+    <ImageView
+        android:id="@+id/home"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="16dp"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/home"
+        />
+
+    <HorizontalScrollView
+        android:fillViewport="true"
+        android:layout_below="@+id/container"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <GridView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/gridview"
+                android:numColumns="auto_fit"
+                android:verticalSpacing="10dp"
+                android:horizontalSpacing="10dp"
+                android:columnWidth="80dp"
+                android:stretchMode="columnWidth"
+                android:gravity="center" >
+
+            </GridView>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <com.hermann.memorypics.ContainerView
+        android:id="@+id/container"
+        android:layout_toLeftOf="@+id/sound"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:backgroundTint="#00ffffff"
+        android:background="#aaffffff"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score"
+            android:textSize="30dp"
+            android:textColor="#324A5E"
+            android:gravity="center"/>
+
+
+    </com.hermann.memorypics.ContainerView>
+
+</RelativeLayout>
